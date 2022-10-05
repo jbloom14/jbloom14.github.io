@@ -1,0 +1,27 @@
+h1 {
+    color: #A0EADE;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #5C6784;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+    background-color: #1D263B;
+    font-size: 12px;
+}
+
+.navbar {
+    font-size: 1.5em;
+}
+
+.col-sm-3 {
+    float: right;
+}
+
+p {color:#5C6784}
