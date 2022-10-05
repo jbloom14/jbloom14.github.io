@@ -24,4 +24,12 @@ body {
     float: right;
 }
 
-p {color:#5C6784}
+p {
+    color: #5C6784
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-style: italic;
+    }
+}
