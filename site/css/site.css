@@ -1,41 +1,74 @@
 /* colors:
-background 89B6A5
-navbar tealish C9EDDC
-light highlights E2AEDD
-dark highlights 82968C */
+background 283618
+light highlights 606c38
+light orange dda15e
+dark orange bc6c25
+text fefae0 */
 
 body {
-    background-color: #89B6A5;
+    background-color: #283618;
 }
 
 h1,
 h2,
 h3 {
-    color: white;
+    color: #fefae0;
 }
 
 .twitter {
-    color: #C9EDDC;
+    color: #dda15e;
 }
 
 .about,
 p,
-li {
-    color: white;
+li,
+em {
+    color: #fefae0;
     font-family: 'Open Sans', sans-serif;
 }
 
 
 h1,
 h2 {
-    font-family: 'Sansita', sans-serif;
+    font-family: 'Roboto Slab', serif;
     text-decoration: underline;
-    text-decoration-color: #C9EDDC;
+    text-decoration-color: #606c38;
+}
+
+h4 {
+    font-size: 3.5em;
+    font-family: 'Roboto Slab', serif;
+    color: #fefae0;
+
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.4em;
+    color: #fefae0;
+    text-decoration: underline;
+    text-decoration-color: #606c38;
+
 }
 
 .me {
     float: right;
     width: 18em;
+    border-style:groove;
+    border-image-width:30px;
+    border-color: #dda15e;
+}
+
+.navbar {
+    background-color: #606c38;
+    color: #fefae0;
+}
+
+b {
+    font-family: 'Open Sans', sans-serif;
+    color: #606c38;
+    font-size: 1em;
+    font-style: bold;
 }
 
 /*nav {
