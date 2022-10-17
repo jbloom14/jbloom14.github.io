@@ -7,6 +7,7 @@ text fefae0 */
 
 body {
     background-color: #283618;
+    margin: 0 0 2em 0;
 }
 
 h1,
@@ -52,11 +53,10 @@ h3 {
 }
 
 .me {
-    float: right;
-    width: 18em;
-    border-style:groove;
-    border-image-width:30px;
+    border-style: groove;
+    border-image-width: 50px;
     border-color: #dda15e;
+    width: 30em;
 }
 
 .navbar {
@@ -69,6 +69,32 @@ b {
     color: #606c38;
     font-size: 1em;
     font-style: bold;
+}
+
+main {
+    margin: 2em 0 0 0;
+}
+
+@media (max-width: 450px) {
+    .me {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
+.headline {
+    color: #fefae0;
+}
+
+.kevin {
+    width: 75%;
+}
+
+.joan {width:45%;}
+
+.weskate {
+    width: 90%;
 }
 
 /*nav {
