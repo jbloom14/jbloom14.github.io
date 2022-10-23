@@ -8,60 +8,58 @@ text fefae0 */
 body {
     background-color: #283618;
     margin: 0 0 2em 0;
+    color: #fefae0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    margin: 2em 0 2em 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #fefae0;
+    font-family: 'Roboto Slab', serif;
 }
 
 h1,
 h2,
 h3 {
-    color: #fefae0;
+    text-decoration: underline;
+    text-decoration-color: #606c38;
 }
+
+h3 {
+    font-size: 1.4em;
+    font-weight:bold;
+}
+
+h4 {
+    font-size: 3.5em;
+}
+
+/*links*/
 
 .twitter {
     color: #dda15e;
 }
 
-.about,
-p,
-li,
-em {
+.twitter:hover {
     color: #fefae0;
-    font-family: 'Open Sans', sans-serif;
 }
 
-
-h1,
-h2 {
-    font-family: 'Roboto Slab', serif;
-    text-decoration: underline;
-    text-decoration-color: #606c38;
-}
-
-h4 {
-    font-size: 3.5em;
-    font-family: 'Roboto Slab', serif;
-    color: #fefae0;
-
-}
-
-h3 {
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.4em;
-    color: #fefae0;
-    text-decoration: underline;
-    text-decoration-color: #606c38;
-
-}
+/*about img*/
 
 .me {
-    border-style: groove;
-    border-image-width: 50px;
-    border-color: #dda15e;
-    width: 30em;
+    border: 5px solid #dda15e;
 }
 
 .navbar {
     background-color: #606c38;
     color: #fefae0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 b {
@@ -71,14 +69,15 @@ b {
     font-style: bold;
 }
 
-main {
-    margin: 2em 0 0 0;
-}
-
 @media (max-width: 450px) {
     .me {
         width: 50%;
         margin: 0 auto;
+    }
+
+    .kevin,
+    .joan {
+        margin: 0 0 3em 0;
     }
 }
 
@@ -91,10 +90,20 @@ main {
     width: 75%;
 }
 
-.joan {width:45%;}
+.joan {
+    width: 45%;
+}
 
 .weskate {
     width: 90%;
+}
+
+.logo {
+    width: 1cm;
+}
+
+a {
+    text-decoration: none;
 }
 
 /*nav {
