@@ -33,7 +33,7 @@ h3 {
 
 h3 {
     font-size: 1.4em;
-    font-weight:bold;
+    font-weight: bold;
 }
 
 h4 {
@@ -81,6 +81,19 @@ b {
     }
 }
 
+@media (min-width:450px) {
+
+    .dbk {
+        margin-left: 100px;
+        width: 500px;
+    }
+    
+    .vimeo {
+        margin-left: 100px;
+        width: 560px;
+    }
+}
+
 
 .headline {
     color: #fefae0;
@@ -105,6 +118,7 @@ b {
 a {
     text-decoration: none;
 }
+
 
 /*nav {
     background-color: #C9EDDC;
