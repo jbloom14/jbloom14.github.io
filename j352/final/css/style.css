@@ -10,9 +10,6 @@ nav {
     color: whitesmoke;
 }
 
-h1 {
-    font-size: 3em;
-}
 
 p {
     font-size: 15px;
@@ -38,10 +35,11 @@ h3 {
 h1 {
     padding-bottom: 20px;
     font-size: 60px;
+    font-size: 3em;
 }
 
 h2 {
-    font-size: 1em;
+    font-size: 2em;
     padding-bottom: 20px;
 }
 
