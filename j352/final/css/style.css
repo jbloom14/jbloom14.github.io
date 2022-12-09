@@ -60,6 +60,11 @@ h2 {
     padding: 10px 0 10px 0;
 }
 
+.background_color
+{
+    background-color: white;
+}
+
 
 a {
     color: whitesmoke;
