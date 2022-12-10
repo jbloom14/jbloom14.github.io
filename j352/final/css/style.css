@@ -5,8 +5,7 @@ body {
 
 p,
 h1,
-h2,
-nav {
+h2 {
     color: whitesmoke;
 }
 
@@ -35,11 +34,11 @@ h3 {
 h1 {
     padding-bottom: 20px;
     font-size: 60px;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     padding-bottom: 20px;
 }
 
